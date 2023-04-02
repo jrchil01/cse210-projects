@@ -34,6 +34,8 @@ class MadLibs : Game
         _noun3 = Console.ReadLine();
         Console.Write("Noun: ");
         _noun4 = Console.ReadLine();
+        Console.Write("Noun: ");
+        _noun5 = Console.ReadLine();
         Console.Write("Verb: ");
         _verb = Console.ReadLine();
         Console.Write("Verb: ");
@@ -60,6 +62,6 @@ class MadLibs : Game
         Console.WriteLine($"It shall clasp a {_adjective2} {_noun4} whom the angels name {_name}-");
         Console.WriteLine($"Clasp a {_adjective3} and radiant {_noun4} whom the angels name {_name}.\"");
         Console.WriteLine($"Quoth the {_noun5} \"Nevermore\"");
-        Thread.Sleep(6000);
+        Thread.Sleep(5000);
     }
 }

@@ -46,7 +46,7 @@ class Battleship : Game
 
         while(!_sunk && _turns < 10){
             Display();
-            Console.Write("Where do you want to launch?");
+            Console.Write("Where do you want to launch? ");
             string launch = Console.ReadLine();
             Launch(launch);
             Display();
