@@ -101,5 +101,6 @@ class Battleship : Game
     public override void Victory()
     {
         Console.WriteLine("You sunk my battleship!");
+        Thread.Sleep(5000);
     }
 }

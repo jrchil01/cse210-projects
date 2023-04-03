@@ -23,7 +23,7 @@ public class Quiz : Game
         CountVote(vote);
         Console.Clear();
 
-        Console.WriteLine("Is you diet comprised of:\nA: Nectar\nB: Decomposing rot\n C: Weevils and leaves");
+        Console.WriteLine("Is you diet comprised of:\nA: Nectar\nB: Decomposing rot\nC: Weevils and leaves");
         vote = Console.ReadLine();
         CountVote(vote);
         Console.Clear();
@@ -45,6 +45,7 @@ public class Quiz : Game
         }else if(_worm > _butterfly && _worm > _beetle){
             Console.WriteLine("Congrats! You are a squicky worm! Lots of people think you're gross, but you are the backbone of society as we know it.");
         }
+        Thread.Sleep(5000);
     }
 
     public void CountVote(string vote)
